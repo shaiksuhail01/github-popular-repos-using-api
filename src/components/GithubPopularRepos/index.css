@@ -1,0 +1,65 @@
+.heading {
+  font-family: 'Lobster';
+  font-size: 28px;
+  color: #0f172a;
+  font-weight: bold;
+  margin-bottom: 27px;
+}
+.languageListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.repoListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+.failureContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.failureImage {
+  width: 250px;
+  height: 180px;
+}
+.failureMsg {
+  font-family: 'Lobster';
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .failureImage {
+    width: 527px;
+    height: 393px;
+  }
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

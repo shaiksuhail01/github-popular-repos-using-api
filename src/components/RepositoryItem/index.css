@@ -1,0 +1,49 @@
+.repoContainer {
+  background-color: #f8f8ff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-width: 0px;
+  border-radius: 12px;
+  width: 250px;
+  margin: 8px;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.repoImage {
+  width: 65px;
+}
+.repoName {
+  font-family: 'Roboto';
+  font-size: 19px;
+  color: #e73959;
+  font-weight: bold;
+  margin-top: 17px;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0px;
+}
+.imageDescContainer {
+  display: flex;
+  align-items: center;
+}
+.descImages {
+  width: 15px;
+  margin-top: 8px;
+}
+.descNames {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 9px;
+  margin-bottom: 3px;
+}
